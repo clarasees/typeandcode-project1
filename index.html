@@ -4,9 +4,127 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Clara's Type + Code Project 1</title>
+<style>
+	* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+	.grid {
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr;
+		padding: 30px;
+		gap: 30px;
+	}
+
+	@media only screen and (max-width: 1000px) {
+			.grid {
+				grid-template-columns: 1fr 1fr 1fr;
+			}
+		}
+		@media only screen and (max-width: 800px) {
+			.grid {
+				grid-template-columns: 1fr 1fr;
+			}
+		}
+		@media only screen and (max-width: 600px) {
+			.grid {
+				grid-template-columns: 1fr;
+			}
+		}
+		.card {
+			background-color: rgba(0,0,0,0);
+			padding: 40px;
+			border-radius: 14px;
+			border: 4px solid blue;
+		}
+		img {
+			width: 100%;
+		}
+		
+		.card h1{
+			font-family: sans-serif;
+			color: blue;
+			size: 25px;
+			
+		}
+		
+		.card p{
+			font-family: sans-serif;
+		}
+		
+		.card a{
+			font-family: monospace;
+			background-color: rgb(2550,0,0);
+			color: white;
+			size: 15px;
+			display: block;
+			width: 100%;
+			text-align:center;
+		
+		}
+</style>
+
 </head>
 <body>
-	
+	<div class="grid"></div>
+		<div class="card">
+			<h1>Clara's TYPE+CODE Projects</h1>
+			<h1>open them here </h1>
+			<br>
+			<a href="https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/" target="_blank">LINK</a>
+		</div>
+
+		<div class="card">
+			<h1>HTML</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*">
+			<a href="https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/" target="_blank">Link</a>
+		</div>
+
+		<div class="card">
+			<h1>CSS</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*">
+			<a href="https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/" target="_blank">Link</a>
+		</div>
+
+		<div class="card">
+			<h1>Original Article</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*">
+			<a href="https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/" target="_blank">Link</a>
+		</div>
+
+		<div class="card">
+			<h1>Heading</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*">
+			<a href="https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/" target="_blank">Link</a>
+		</div>
+
+		<div class="card">
+			<h1>Heading</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*">
+			<a href="https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/" target="_blank">Link</a>
+		</div>
+
+		
+	</div>
+
+
 	<h1>Compedium: Type + Code Projects</h1>
 	<h2>Clara Cayosa</h2>
 
