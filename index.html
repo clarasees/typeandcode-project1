@@ -1,109 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-	
-	<title>>Clara's Type + Code Project 1</title>
+	<title>Clara's Type + Code Project 1</title>
 
 	<style>
-	* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-	}
 
-	.buttons {
-    margin: 10%;
-    text-align: center;}
+		body {
+			text-align: center;
+		}
 
-.btn-hover {
-    width: 200px;
-	font-family: Arial, sans-serif;
-    font-size: 40x;
-    font-weight: 200;
-    color: #fff;
-    cursor: pointer;
-    margin: 10px;
-    height: 55px;
-    text-align:center;
-    border: none;
-    background-size: 300% 100%;
+		button {
+			font-size: 48px;
+			margin: 2%;
+			text-align: left;
+			display: inline-block;
+			border: 2px solid blue;
+			background-size: 300% 100%;
 
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
+			moz-transition: all .4s ease-in-out;
+			-o-transition: all .4s ease-in-out;
+			-webkit-transition: all .4s ease-in-out;
+			transition: all 1s ease-in-out;
+			background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
 
-.btn-hover:hover {
-	background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-	
-}
+		}
 
-.btn-hover:focus {
-    outline: none;
-}
-
-.btn-hover.color-1 {
-    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
-}
-.btn-hover.color-2 {
-    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
-}
-.btn-hover.color-3 {
-    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
-    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
-}
-.btn-hover.color-4 {
-    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
-    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
-}
+		button:hover {
+			font-size: 100px;
+			color: blue;
+			border: 2px solid black;
+			background-position: 100% 0;
+			moz-transition: all .4s ease-in-out;
+			-o-transition: all .4s ease-in-out;
+			-webkit-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+		}
 
 		h1 {
-			font-family: "Manrope", sans-serif;
-			font-optical-sizing: auto;
-			font-weight: <weight>;
-			font-style: normal;
+			font-size: 48px;
+			font-family: Arial, Helvetica, sans-serif;
 			text-align: center;
-			transform: rotate(6deg);
-	
 		}
-h2 {
-		font-family: "Manrope", sans-serif;
-			font-optical-sizing: auto;
-			font-weight: <weight>;
-			font-style: normal;
-			text-align: left;
-		transform: rotate(-6deg);
-	}
+
+		h2 {
+			font-size: 24px;
+			font-family: Arial, Helvetica, sans-serif;
+			text-align: center;
+		}
+
+		@media only screen and (max-width: 600px) {
+			button {font-size: 16px;}
+			button:hover {font-size: 30px;}
+			h1 {font-size: 16px;}
+			h2 {font-size: 16px;}
+		}
+		
+
+		.color-1 {
+			background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+			box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+		}
+
+		.color-2 {
+			background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+			box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+		}
+
+		.color-3 {
+			background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+			box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+		}
+
+		.color-4 {
+			background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+			box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+		}
+
+		
 	</style>
 </head>
+
 <body>
-	<h2>
-		Clara's finally codes!
-	</h2>
-	<h1>
-		Type + Code Project I
-		
-	</h1>
-<div class="buttons">
-	<a href=v1><button class="btn-hover color-1">Html</button></a>
-    <a href=v2><button class="btn-hover color-2">Html + Css</button></a> 
-	<a href=v3><button class="btn-hover color-3">Html + Css 2.0</button></a>
-   <a href="https://artsemerson.org/2012/03/23/cafe-culture-history-part-5-the-history-of-the/"> <button class="btn-hover color-4">OG Article</button>
-   
-</div>
-
-
+	<h2>Clara finally codes!</h2>
+	<h1>Type + Code Project I</h1>
+	<a href=v1><button class="color-1">Html</button><br></a>
+	<a href=v2><button class="color-2">Html + Css </button><br></a>
+	<a href=v3><button class="color-3">Html + Css 2.0</button><br></a>
+	<a href="https://artsemerson.org/2012/03/23/cafe-culture-history-part-5-the-history-of-the/"><button
+			class="color-4">Link: Original Article</button></a>
 </body>
+
 </html>
